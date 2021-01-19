@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.79.0">
+    <title>Carousel Template · Bootstrap v5.0</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
+
+    
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+  </head>
+  <body>
+    
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Ben Gilbert</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item active">
+            <a class="nav-link" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Academy Projects</a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+  <div id="#myCarousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1>Python Plane Project</h1>
+            <p>Task : To Deliver an Airport Check-In Desk UI Using Python</p>
+            <p><a class="btn btn-lg btn-primary" href="" role="button">Github Link</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>CI/CD Deployment of Web Scraper App</h1>
+            <p>Task : To deploy a web scraper app using a CI/CD pipeline</p>
+            <p><a class="btn btn-lg btn-primary" href="#" role="button">Github Link</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+
+        <div class="container">
+          <div class="carousel-caption text-end">
+            <h1>Deployment of Node JS App and Db Using Packer and Terraform</h1>
+            <p>Create AMI's of a node JS app and database using packer and creating ec2 instances with terraform</p>
+            <p><a class="btn btn-lg btn-primary" href="#" role="button">Github Link</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </a>
+  </div>
+
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+  <div class="container">
+    <h1 class="featurette-heading"> Academy Projects</h1>
+    <hr class="featurette-divider">
+    <div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-4">
+        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+
+        <h2>Python Plane Project</h2>
+        <p>Task : To Deliver an Airport Check-In Desk UI Using Python</p>
+        <p><a class="btn btn-secondary" href="https://github.com/A-Ahmed100216/plane_project" role="button">Github Link &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+
+        <h2>CI/CD of Web Scraper App</h2>
+        <p>Task : Deploy a web scraper app using a CI/CD pipeline</p>
+        <p><a class="btn btn-secondary" href="https://github.com/BenGilbert98/QG_Project" role="button">Github Link &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+
+        <h2>Deployment of NodeJS App and DB</h2>
+        <p>Task : nodeJS app and database deployed using Packer and Terraform</p>
+        <p><a class="btn btn-secondary" href="https://github.com/BenGilbert98/Terraform" role="button">Github Link &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+    <h1 class="featurette-heading">Technical Proficiencies</h1>
+    <hr class="featurette-divider">
+    <div class="container marketing">
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Github </h2>
+        <p class="lead">This aim of this project was to deliver an airport check-in desk UI with certain acceptance criteria set by our trainer. To achieve this, Ben worked within an agile environment, in a team of four, experiencing a multitude of roles including scrum master, testing and development. The task was achieved through python where Ben and his team implemented OOP, TDD and SQL in order to deliver a UI that can add passengers, employees, planes and trips to their respective databases all through the UI in the python terminal.</p>
+      </div>
+      <div class="col-md-5">
+        <img src= "https://assets.stickpng.com/images/5847f98fcef1014c0b5e48c0.png" width="250" height="250"> 
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">Python</h2>
+        <p class="lead">This task involved deploying a web scraper app using a CI/CD pipeline. During this task, Ben was able to create a dev branch and connect it via a webhook to a CI pipeline in Jenkins, this would run tests on the code and if successful, push the changes to the main branch. Additionally, the CD pipeline looked for any changes to the main branch and copied them to an AWS instance which acted as an ansible controller. Ansible playbooks were then run in the controller to deploy the changes to a live environment.
+        </p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img src= "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Python.svg/1200px-Python.svg.png" width="250" height="250"> 
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">SQL </h2>
+        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+      </div>
+      <div class="col-md-5">
+        <img src= "https://odino.org/images/mssql-logo.png" width="350" height="250"> 
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">AWS</h2>
+        <p class="lead">This task involved deploying a web scraper app using a CI/CD pipeline. During this task, Ben was able to create a dev branch and connect it via a webhook to a CI pipeline in Jenkins, this would run tests on the code and if successful, push the changes to the main branch. Additionally, the CD pipeline looked for any changes to the main branch and copied them to an AWS instance which acted as an ansible controller. Ansible playbooks were then run in the controller to deploy the changes to a live environment.
+        </p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img src= "https://res.cloudinary.com/dtbudl0yx/image/fetch/w_2000,f_auto,q_auto,c_fit/https://adamtheautomator.com/wp-content/uploads/2019/07/prod-art-aws-600-width-1200.png" width="300" height="250"> 
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Jenkins </h2>
+        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+      </div>
+      <div class="col-md-5">
+        <img src= "https://miro.medium.com/max/1600/1*LOFbTP2SxXcFpM_qTsUSuw.png" width="250" height="250"> 
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">Docker</h2>
+        <p class="lead">This task involved deploying a web scraper app using a CI/CD pipeline. During this task, Ben was able to create a dev branch and connect it via a webhook to a CI pipeline in Jenkins, this would run tests on the code and if successful, push the changes to the main branch. Additionally, the CD pipeline looked for any changes to the main branch and copied them to an AWS instance which acted as an ansible controller. Ansible playbooks were then run in the controller to deploy the changes to a live environment.
+        </p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img src= "https://miro.medium.com/max/336/0*LycB0Oo_OQFIggxx.png" width="300" height="250" display: inline-block;> 
+        <img style= 'vertical-align:middle; display:inline;'>
+        </div>
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Ansible </h2>
+        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+      </div>
+      <div class="col-md-5">
+        <img src= "https://keithtenzer.files.wordpress.com/2017/11/ansible-logo.png?w=640" width="300" height="250"> 
+      </div>
+    </div>
+    
+    <hr class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+
+  </div><!-- /.container -->
+
+
+  <!-- FOOTER -->
+  <footer class="container">
+    <p class="float-end"><a href="#">Back to top</a></p>
+    <p>&copy; 2020 Ben Gilbert, &middot; <a href="https://github.com/BenGilbert98">Github</a> &middot; <a href="https://www.linkedin.com/in/ben-gilbert-6862861b7/">LinkedIn</a></p>
+  </footer>
+</main>
+
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+  </div> 
+  </body>
+</html>
